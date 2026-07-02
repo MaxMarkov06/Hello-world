@@ -1,8 +1,5 @@
 x = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-y = []
-for h in range(11):
-    value1 = int(input("Введите число y: "))
-    y.append(value1)
+y = [6, 2, 4, 7, 9, 5, 0, 2, 6, 4, 2]
 sum_x = sum(x)
 sum_x_2 = sum(x ** 2 for x in x)
 sum_x_21 = sum_x ** 2
